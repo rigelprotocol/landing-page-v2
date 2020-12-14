@@ -1,0 +1,21 @@
+.intro{
+    background-color: #120136;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.loader {
+  width: 25%;
+  height: 25%;
+  background: url("../images/animated-logo.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-position: center;
+    z-index: 2000;
+  }
+
+
