@@ -1,3 +1,6 @@
+#RigelProtocol Landing Page V2
+
+
 Installing packages 
 ```bash
 npm install
