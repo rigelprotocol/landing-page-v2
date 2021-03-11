@@ -3,6 +3,9 @@
     margin:0;
     box-sizing:border-box
 }
+div{
+  border:1px red solid
+}
 :root{
     --section-margin:60px 0;
     --padding:50px 0;
@@ -13,13 +16,8 @@
     --text-color:#52606D;
     --background-secondary-color:rgba(245, 247, 250, 1);
 }
-@font-face {
-  font-family: 'Airbnb';
-  src:  url('../fonts/AirbnbCerealBold.woff') format('woff'),
-        url('../fonts/AirbnbCerealBold.woff') format('woff');
-}
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: Airbnb, sans-serif;
 }
 .wrapper{
@@ -28,11 +26,11 @@ body{
 }
 /* header */
 header{
-
-  background: rgba(105, 102, 102, 0.438);
+background:white;
   width:100%;
   position: fixed;
    z-index: 999;
+   box-sizing: border-box;
 }
 .header {
     width: 95%;
