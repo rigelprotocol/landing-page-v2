@@ -1,613 +1,1042 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
+  <title>
+   RigelProtocol - Smart Swapping Exchange, Margin Trading & Cross Chain
+   Protocol
+  </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+   name="keywords"
+   content="RigelProtocol, Rigel, Smart Swapping, Swap Exchange, Futures Trading, Margin Trading, Cross Chain, DEFI, Yield Farming, Secure Swap, High yield Farm"
+  />
+  <meta
+   name="title"
+   content="RigelProtocol - Smart Swapping Exchange, Yield Farming, Margin Trading & Cross Chain Protocol"
+  />
+  <meta
+   name="description"
+   content="RigelProtocol is a number of Decentralized finance(DEFI) products: Smart swapping exchange, Margin trading, yield farming and cross-chain on both Binance Smart Chain and Ethereum Chain. Highly Secure, Seamless Transactions and low fees "
+  />
+  <link
+   rel="shortcut icon"
+   href="./assets/faviconpack/favicon.ico"
+   type="image/x-icon"
+  />
+  <link
+   rel="apple-touch-icon"
+   sizes="180x180"
+   href="./assets/faviconpack/apple-touch-icon.png"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="32x32"
+   href="./assets/faviconpack/favicon-32x32.svg"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="16x16"
+   href="./assets/faviconpack/favicon-16x16.svg"
+  />
+  <link rel="manifest" href="./assets/faviconpack/site.webmanifest" />
+  <link
+   rel="mask-icon"
+   href="./assets/faviconpack/safari-pinned-tab.svg"
+   color="#5bbad5"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link
+   rel="stylesheet"
+   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+   crossorigin="anonymous"
+  />
+ </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        crossorigin="anonymous" />
-</head>
+ <body>
+  <!-- HEADER -->
+  <header>
+   <div class="header">
+    <nav>
+     <div class="headerTop">
+      <div class="logo">
+       <a href="/">
+        <img src="./assets/images/logo.svg" alt="logo" class="logo-img" />
+       </a>
+      </div>
 
-<body>
+      <div class="menuToggle">
+       <div class="barsText">
+        <div class="bars"></div>
+        <div class="bars"></div>
+        <div class="bars"></div>
+       </div>
+       <div class="close-nav">X</div>
+      </div>
+     </div>
 
-    <!-- HEADER -->
-    <header>
-        <div class="header">
-            <div class="headerTop">
-
-                <div class="logo">
-                    <a href="/"> <img src="./assets/images/logo.svg" alt="logo" class="logo-img">
-                    </a>
-
-
-                </div>
-
-                <div class="menuToggle">
-                    <div class="barsText">
-                        <div class="bars"></div>
-                        <div class="bars"></div>
-                        <div class="bars"></div>
-                    </div>
-                    <div class="close-nav">X</div>
-                </div>
+     <ul class="menu">
+      <li>
+       <a href="about.html"> About us</a>
+      </li>
+      <li>
+       <a class="inner-page-link" href="#products">Our Products</a>
+      </li>
+      <li class="multi_navbar">
+       <div>
+        <div><a>Exchange</a></div>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <ul class="multi_navbar_ul">
+        <div class="multi_navbar_ul_div">
+         <div>
+          <h5 class="multi_navbar_ul_div_heading">BSC Chain</h5>
+          <li>
+           <a href="https://smartswap.rigelprotocol.com/" target="_blank">
+            <div class="multi_navbar_ul_div_item">
+             <div class="multi_navbar_ul_div_item_img">
+              <div>
+               <img src="./assets/images/rigelprotocol.svg" />
+              </div>
+             </div>
+             <div>
+              <p>Smartswap</p>
+              <p>Swap securely on the Rigelprotocol platform</p>
+             </div>
             </div>
-
-            <nav>
-                <ul class="menu">
-                    <li class="closeMenu">
-                        <div class="close-nav">X</div>
-                    </li>
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About us</a>
-                    </li>
-                    <li>
-                        <a href="#project">Our Products</a>
-                    </li>
-                    <li>
-                        <a href="#articles">FAQs</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#contact">White Paper</a>
-                    </li>
-                    <li>
-                        <div class="navbar__contact">
-
-                            <a href=""><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
-                            <a href=""><img src="./assets/images/telegram.svg" alt="telegram"></a>
-                            <a href=""><img src="./assets/images/facebook.svg" alt="facebook"></a>
-                            <a href=""> <img src="./assets/images/twitter.svg" alt="twitter"></a>
-                            <a href=""><img src="./assets/images/medium.svg" alt="medium"></a>
-                            <a href=""> <img src="./assets/images/github.svg" alt="github"></a>
-
-                        </div>
-                    </li>
-
-
-                </ul>
-
-
-            </nav>
+           </a>
+          </li>
+          <li>
+           <a
+            href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xfa262f303aa244f9cc66f312f0755d89c3793192&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+            target="_blank"
+           >
+            <div class="multi_navbar_ul_div_item">
+             <div class="multi_navbar_ul_div_item_img">
+              <div>
+               <img src="./assets/images/pancakeswap.svg" />
+              </div>
+             </div>
+             <div>
+              <p>RGP / BNB</p>
+              <p>Swap RGP / BNB on Pancakeswap platform</p>
+             </div>
+            </div>
+           </a>
+          </li>
+          <li>
+           <a
+            href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xfa262f303aa244f9cc66f312f0755d89c3793192&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            target="_blank"
+           >
+            <div class="multi_navbar_ul_div_item">
+             <div class="multi_navbar_ul_div_item_img">
+              <div>
+               <img src="./assets/images/pancakeswap.svg" />
+              </div>
+             </div>
+             <div>
+              <p>RGP / BUSD</p>
+              <p>Swap RGP / BUSD on Pancakeswap platform</p>
+             </div>
+            </div>
+           </a>
+          </li>
+         </div>
+         <div>
+          <h5 class="multi_navbar_ul_div_heading">Ethereum Chain</h5>
+          <li>
+           <a
+            href="https://app.uniswap.org/#/swap?inputCurrency=0x4af5ff1a60a6ef6c7c8f9c4e304cd9051fca3ec0"
+            target="_blank"
+           >
+            <div class="multi_navbar_ul_div_item">
+             <div class="multi_navbar_ul_div_item_img">
+              <div>
+               <img src="./assets/images/uniswap.svg" />
+              </div>
+             </div>
+             <div>
+              <p>RGP / ETH</p>
+              <p>Swap RGP/ETH on Uniswap platform</p>
+             </div>
+            </div>
+           </a>
+          </li>
+          <li>
+           <a
+            href="https://app.uniswap.org/#/swap?inputCurrency=0x4af5ff1a60a6ef6c7c8f9c4e304cd9051fca3ec0&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7"
+            target="_blank"
+           >
+            <div class="multi_navbar_ul_div_item">
+             <div class="multi_navbar_ul_div_item_img">
+              <div>
+               <img src="./assets/images/uniswap.svg" />
+              </div>
+             </div>
+             <div>
+              <p>RGP / USDT</p>
+              <p>Swap RGP/USDT on Uniswap platform</p>
+             </div>
+            </div>
+           </a>
+          </li>
+         </div>
         </div>
-    </header>
-    <div class="wrapper">
-        <main>
-            <!-- section 1 -->
-            <section class="section__1">
-                <div>
-                    <h5>SWAP BETTER!</h5>
-                    <h1 class="my-4">
-                        A <span>decentralized blockchain protocol</span> for all your defi needs.
-                    </h1>
-                    <p>Direct cross chain swapping without order books, deposits or coin wrapping.
-                        High Yield
-                        Annual
-                        Interest for RGP token holders and Liquidity Providers.</p>
-                    <div class="section__1__div__button__container">
-                        <button>White paper</button>
-                    </div>
-                </div>
-                <div class="section__1__banner">
-                    <img src="./assets/images/main_svg.svg" alt="">
-                </div>
-            </section>
+       </ul>
+      </li>
+      <li>
+       <a href="career.html">Career</a>
+      </li>
+      <li>
+       <a href="https://medium.com/rigelprotocol" target="_blank">Blog</a>
+      </li>
+      <li class="whitePaper">
+       <a
+        href="https://drive.google.com/file/d/1Q0u71tqJ0GsW4Nk_rrxXmIk4VcMfPHHY/view"
+        >Whitepaper</a
+       >
+      </li>
 
-            <!-- section 2 -->
-            <section class="section__2">
-                <h5>AS SEEN ON:</h5>
-                <div class="section__2__img__container my-5">
-
-                    <div class="section__2__img">
-                        <img src="./assets/images/DappRadar_logo.png" alt="">
-                    </div>
-                    <div class="section__2__img">
-                        <img src="./assets/images/icomarks.svg" alt="">
-                    </div>
-
-
-                    <div class="section__2__img">
-                        <img src="./assets/images/cryptotem__logo.png" alt="cryptotem">
-                    </div>
-                    <div class="section__2__img">
-                        <img src="./assets/images/coincodex2.svg" alt="coincodex">
-                    </div>
-                    <div class="section__2__img">
-                        <img src="./assets/images/icoholder__logo.png" alt="">
-                    </div>
-                    <div class="section__2__img">
-                        <img src="./assets/images/link__logo.png" alt="">
-                    </div>
-                    <div class="section__2__img">
-                        <img src="./assets/images/cryptocompare_logo.png" alt="">
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- section 3 -->
-            <section class="section__3">
-                <h5>MORE INCLUSIVE!</h5>
-                <h2 class="my-4">Built on <span>
-                        Binance Smart Chain
-                    </span> & <span>Ethereum Blockchain.</span></h2>
-                <p>
-                    The Rigel Protocol will be built on both Binance Smart Chain and the Ethereum Blockchain. Fast,
-                    convenient and secure. The Rigel Protocol will allow users to have full control of their funds while
-                    using any of the platform products. Smart Swapping, Yield Farming, Margin Trade, and many more.
-                    Cross chain operations guarantee low transaction fees without the need to leave funds on custody to
-                    third parties or go through KYC process.
-                </p>
-                <div class="section__3__card__container">
-                    <div class="section__3__card">
-                        <div class="section__3__card__img">
-                            <div>
-                                <img src="./assets/images/secure.svg" alt="">
-                            </div>
-
-                        </div>
-                        <div class="section__3__card__content">
-                            <h5>Highly secure</h5>
-                            Easily exchange between your assets without giving control of your funds to anyone.
-                        </div>
-                    </div>
-                    <div class="section__3__card">
-                        <div class="section__3__card__img">
-                            <div>
-                                <img src="./assets/images/scalable.png" alt="">
-                            </div>
-                        </div>
-                        <div class="section__3__card__content">
-                            <h5>Scalable</h5>
-                            Instant operations with seamless user experience and low transactions fees.
-                        </div>
-                    </div>
-                    <div class="section__3__card">
-                        <div class="section__3__card__img">
-                            <div>
-                                <img src="./assets/images/versalite.svg" alt="">
-                            </div>
-                        </div>
-                        <div class=" section__3__card__content">
-                            <h5>Versalite</h5>
-                            One stop solution to save time & money. Switch and Swap between various chains in one place.
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- section 4 -->
-            <section class="section__4">
-                <div class="section__4__container">
-                    <h5 class="my-3">WHAT WE OFFER</h5>
-                    <h2>Our Products</h2>
-                    <div class="section__4__flex">
-                        <div class="section__4__top">
-                            <h5 class="mt-5 mb-3 smart">Smart Swapping, Yield Farming and Cross Chaining</h5>
-                            <p>Direct cross chain swapping without order books, deposits or coin wrapping. High Yield
-                                Annual
-                                Interest for RGP token holders and Liquidity Providers.</p>
-                            <ul class="section__4__list">
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div>
-                                        Take complete control of your funds.
-                                    </div>
-
-                                </li>
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div>
-                                        Low transaction fees.
-                                    </div>
-
-                                </li>
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div>
-                                        Fast, convenient & secure.
-                                    </div>
-
-                                </li>
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div> Swap across various chains in one place.
-                                    </div>
-
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="section__4__middle">
-                            <div class="my-5">
-                                <img src="./assets/images/img1.jpg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="section__4__button__container">
-                        <button>coming soon</button>
-                    </div>
-                    <div class="section__4__flex__2 pt-5 mt-5">
-                        <div class="section__4__bottom ">
-                            <h2>Margin Trading</h2>
-                            <p class="my-4">Boost your trading profits with increased leverage by getting access to
-                                greater
-                                capital sums to
-                                trade with.</p>
-                            <ul class="section__4__list">
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div>
-                                        Get access to trading capital easily.
-                                    </div>
-
-                                </li>
-                                <li class="my-4">
-                                    <div class="section__4__li__marker">
-                                        <img src="./assets/images/list_marker.svg" alt="">
-                                    </div>
-                                    <div>
-                                        Potential to amplify your profits.
-                                    </div>
-
-                                </li>
-                            </ul>
-                            <div class="section__4__button__container">
-                                <button>coming soon</button>
-                            </div>
-                        </div>
-                        <div class="section__4__tabs">
-                            <div class="section__4__tab my-3">
-
-                                <img src="./assets/images/binance.svg" alt="">
-                                <div>Binance Coin</div>
-                                <div>BNB</div>
-                                <div>x50</div>
-                            </div>
-                            <div class="section__4__tab my-3">
-
-                                <img src="./assets/images/ethereum.svg" alt="">
-                                <div>Ethereum</div>
-                                <div>ETH</div>
-                                <div>x10</div>
-
-                            </div>
-                            <div class="section__4__tab my-3">
-
-                                <img src="./assets/images/EOS.svg" alt="">
-                                <div>EOS</div>
-                                <div>EOS</div>
-                                <div>x10</div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="section__4__button__container_2">
-                        <button>coming soon</button>
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- section 5 -->
-            <section class="section__5">
-                <h5 class="my-4">ROADMAP</h5>
-                <h2>The Timeline</h2>
-                <ul class="section__5__list">
-                    <li>
-                        <div class="section__5__li__marker__first"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>23 Nov, 2020</h6>
-                            <p>Binance Smart Chain Reward Series</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="section__5__li__marker"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>26 Nov, 2020</h6>
-                            <p>Community Airdrops</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="section__5__li__marker"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>Early Dec, 2020</h6>
-                            <p>Token Contract Release</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="section__5__li__marker"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>Dec, 2020</h6>
-                            <p>Community Contests</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="section__5__li__marker"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>Jan, 2021</h6>
-                            <p>Gift Dapp</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="section__5__li__marker"><img src="./assets/images/marker.svg" alt=""></div>
-                        <div>
-                            <h6>Feb, 2021</h6>
-                            <p>Refined Smart Swapping & Yield Farming</p>
-                        </div>
-                    </li>
-                    <li class="section__5__li__blank">
-                        <div class="section__5__li__marker__blank">
-                            <img src="./assets/images/blank_circle.svg" alt="">
-                        </div>
-                        <div>
-                            <h6>Q1, 2021</h6>
-                            <p>Future Exchange</p>
-                        </div>
-                    </li>
-                    <li class="section__5__li__blank">
-                        <div class="section__5__li__marker__blank">
-                            <img src="./assets/images/blank_circle.svg" alt="">
-                        </div>
-                        <div>
-                            <h6>Q2, 2021</h6>
-                            <p>Cross Chain & Governance System</p>
-                        </div>
-                    </li>
-                    <li class="section__5__li__blank">
-                        <div class="section__5__li__marker__blank__last">
-                            <img src="./assets/images/blank_circle.svg" alt="">
-                        </div>
-                        <div>
-                            <h6>Q2, 2021</h6>
-                            <p>Decentralized Gaming</p>
-                        </div>
-                    </li>
-                </ul>
-                <div class="section__5__hor__line"></div>
-            </section>
-
-            <!-- section 6 -->
-            <section class="section__6">
-                <h5 class="my-4">WHO WE WORK WITH</h5>
-                <h2>Our Partners</h2>
-                <div class="section__6__img__container my-5">
-                    <div class="section__6__img my-5 ">
-                        <img src="./assets/images/certik_logo.png" alt="">
-                    </div>
-                    <div class="section__6__img">
-                        <img src="./assets/images/defiNews_logo.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!-- section 7 -->
-            <section class="section__7">
-                <h5 class="my-4 text-bolder">WHAT WOULD WE LIKE TO KNOW?</h5>
-                <h2>Frequently asked questions</h2>
-                <div class="section__7__questions my-5">
-                    <div class="section__7__question">
-                        <div class="section__7__question__tag">
-                            <div> What is cross Chain</div>
-                            <div class="arrow"><i class="downArrow"></i></div>
-                        </div>
-                        <div class="section__7__question__answer">
-                            <p>
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                rewards.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="section__7__question">
-                        <div class="section__7__question__tag">
-                            <div> What is cross Chain</div>
-                            <div class="arrow"><i class="downArrow"></i></div>
-                        </div>
-                        <div class="section__7__question__answer">
-                            <p>
-
-
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                rewards.
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                rewards.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="section__7__question">
-                        <div class="section__7__question__tag">
-                            <div> What is cross Chain</div>
-                            <div class="arrow"><i class="downArrow"></i></div>
-                        </div>
-                        <div class="section__7__question__answer">
-                            <p>
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                rewards.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="section__7__question">
-                        <div class="section__7__question__tag">
-                            <div> What is cross Chain</div>
-                            <div class="arrow"><i class="downArrow"></i></div>
-                        </div>
-                        <div class="section__7__question__answer">
-                            <p>
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                Yield Farming is a way to generate rewards with
-                                cryptocurrency holdings. In simple terms, it means locking up cryptocurrencies and
-                                getting
-                                rewards.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <footer>
-
-                <div class="footer__newsletter">
-                    <div>
-                        <div class="footer__newsletter__info">
-                            <h3>
-                                Want product news & updates?
-                            </h3>
-                            <p class="pt-2">Sign up for our newsletter and stay up to date</p>
-                        </div>
-                        <div class="footer__input__container">
-                            <div class="footer__input my-3">
-                                <input type="text" placeholder="Enter email address" id="emailInput">
-                                <button>Notify me</button>
-                            </div>
-                            <div class="footer__input__info">
-                                We care about the protection of your data. Read our <a href="">Privacy Policy</a> .
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="footer__container">
-                    <div class="footer__sitemap">
-                        <div>
-                            <div>
-                                <h4>Products</h4>
-                                <ul class="footer__ul">
-                                    <li>
-                                        Smart Swapping
-                                    </li>
-                                    <li>
-                                        Cross Chain
-                                    </li>
-                                    <li>
-                                        Yield Farm
-                                    </li>
-                                    <li>
-                                        Margin Trading
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4>About Rigel Protocol</h4>
-                                <ul class="footer__ul">
-                                    <li>
-                                        About us
-                                    </li>
-
-                                    <li>
-                                        Road Map
-                                    </li>
-
-                                    <li>
-                                        Blog
-                                    </li>
-
-                                    <li>
-                                        FAQs
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div>
-                                <h4>Support</h4>
-                                <ul class="footer__ul">
-                                    <li>Fees</li>
-                                    <li>Rate</li>
-                                    <li>Currency support</li>
-                                </ul>
-                            </div>
-                            <div class="footer__aside">
-                                <ul class="footer__ul">
-                                    <li>Design Compliance</li>
-
-                                    <li>Privacy Policy</li>
-
-                                    <li>Terms & Conditions</li>
-                                </ul>
-                            </div>
-                            <div class="footer__aside__2">
-                                <h4>Subscribe</h4>
-                                <div class="footer__input my-3">
-                                    <input type="text" placeholder="Enter email address" id="emailInput">
-                                    <button><img src="./assets/images/rightArrow.svg" alt=""></button>
-                                </div>
-                                <div>
-                                    <h4>Rigel Protocol Socials</h4>
-                                    <div class="footer__aside__contact">
-
-                                        <a href=""><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
-                                        <a href=""><img src="./assets/images/telegram.svg" alt="telegram"></a>
-                                        <a href=""><img src="./assets/images/facebook.svg" alt="facebook"></a>
-                                        <a href=""> <img src="./assets/images/twitter.svg" alt="twitter"></a>
-                                        <a href=""><img src="./assets/images/medium.svg" alt="medium"></a>
-                                        <a href=""> <img src="./assets/images/github.svg" alt="github"></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer__contact">
-
-                        <a href=""><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
-                        <a href=""><img src="./assets/images/telegram.svg" alt="telegram"></a>
-                        <a href=""><img src="./assets/images/facebook.svg" alt="facebook"></a>
-                        <a href=""> <img src="./assets/images/twitter.svg" alt="twitter"></a>
-                        <a href=""><img src="./assets/images/medium.svg" alt="medium"></a>
-                        <a href=""> <img src="./assets/images/github.svg" alt="github"></a>
-
-                    </div>
-                    <div class="footer__copyright">
-                        <div>
-                            © 2021 Rigel Protocol
-                        </div>
-                        <div>
-                            <ul class="footer__ul">
-                                <li>Design Compliance</li>
-
-                                <li>Privacy Policy</li>
-
-                                <li>Terms & Conditions</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </main>
+      <li class="navbar__contact_li">
+       <div class="navbar__contact">
+        <a href="https://www.linkedin.com/company/rigelprotocol" target="_blank"
+         ><img src="./assets/images/linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="https://www.t.me/rigelprotocol" target="_blank"
+         ><img src="./assets/images/telegram.svg" alt="telegram"
+        /></a>
+        <a href="https://discord.gg/j86NH95GDD" target="_blank"
+         ><img src="./assets/images/discord.svg" alt="discord"
+        /></a>
+        <a href="https://twitter.com/rigelprotocol" target="_blank">
+         <img src="./assets/images/twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://medium.com/rigelprotocol" target="_blank"
+         ><img src="./assets/images/medium.svg" alt="medium"
+        /></a>
+        <a href="https://github.com/rigelprotocol" target="_blank">
+         <img src="./assets/images/github.svg" alt="github"
+        /></a>
+       </div>
+      </li>
+     </ul>
+     <div class="header__nav__button">
+      <div class="section__1__div__button__container">
+       <button>
+        <a
+         href="https://drive.google.com/file/d/1Q0u71tqJ0GsW4Nk_rrxXmIk4VcMfPHHY/view"
+         target="_blank"
+         >Whitepaper</a
+        >
+       </button>
+      </div>
+     </div>
+    </nav>
+   </div>
+  </header>
+  <div class="wrapper">
+   <main>
+    <!-- section 1 -->
+    <div class="section__1">
+     <div>
+      <h6>SWAP BETTER!</h6>
+      <h1 class="my-4">
+       A <span>decentralized blockchain protocol</span> for all your defi needs.
+      </h1>
+      <p>
+       Direct cross chain swapping without order books, deposits or coin
+       wrapping. High Yield Annual Interest for RGP token holders and Liquidity
+       Providers.
+      </p>
+      <div class="section__1__div__button__container">
+       <button>
+        <a
+         href="https://drive.google.com/file/d/1Q0u71tqJ0GsW4Nk_rrxXmIk4VcMfPHHY/view"
+         target="_blank"
+         >Whitepaper</a
+        >
+       </button>
+      </div>
+     </div>
+     <div class="section__1__banner">
+      <img src="./assets/images/main_svg.svg" alt="" />
+     </div>
     </div>
 
-    <script src="./assets/js/script.js"></script>
-</body>
+    <!-- section 2 -->
+    <section class="section__2">
+     <h6>AS SEEN ON:</h6>
+     <div class="section__2__img__container">
+      <div class="section__2__img">
+       <a
+        href="https://dappradar.com/other/defi/rigel-protocol"
+        target="_blank"
+       >
+        <img src="./assets/images/dappradar.svg" alt="dappradar" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a href="https://blockfolio.com/coin/RGP" target="_blank">
+        <img src="./assets/images/blockfolio.svg" alt="blockfolio" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a href="https://cryptototem.com/rigel-protocol-rgp/" target="_blank">
+        <img src="./assets/images/cryptotem.svg" alt="cryptotem" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a href="https://coincodex.com/ico/rigelprotocol/" target="_blank">
+        <img src="./assets/images/coincodex.svg" alt="coincodex" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a
+        href="https://coinmarketcap.com/currencies/rigel-protocol/"
+        target="_blank"
+       >
+        <img src="./assets/images/coinmarketcap.svg" alt="coinmarketcap" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a href="https://icolink.com/ico-rigel-protocol.html" target="_blank">
+        <img src="./assets/images/link.svg" alt="icolink" />
+       </a>
+      </div>
+      <div class="section__2__img">
+       <a
+        href="https://dex.guru/token/0xfa262f303aa244f9cc66f312f0755d89c3793192-bsc"
+        target="_blank"
+       >
+        <img src="./assets/images/dexGuru.svg" alt="dex.guru" />
+       </a>
+      </div>
+     </div>
+    </section>
 
+    <!-- section 3 -->
+    <section class="section__3">
+     <h6>MORE INCLUSIVE!</h6>
+     <h2 class="my-4">
+      Built on <span> Binance Smart Chain </span> &
+      <span>Ethereum Blockchain.</span>
+     </h2>
+     <div class="section__3__heading">
+      <p>
+       The Rigel Protocol will be built on both Binance Smart Chain and the
+       Ethereum Blockchain. Fast, convenient and secure. The Rigel Protocol will
+       allow users to have full control of their funds while using any of the
+       platform products. Smart Swapping, Yield Farming, Margin Trade, and many
+       more. Cross chain operations guarantee low transaction fees without the
+       need to leave funds on custody to third parties or go through KYC
+       process.
+      </p>
+     </div>
+
+     <div class="section__3__card__container">
+      <div class="section__3__card">
+       <div class="section__3__card__img">
+        <div>
+         <img src="./assets/images/secure.svg" alt="" />
+        </div>
+       </div>
+       <div class="section__3__card__content">
+        <h4>Highly secure</h4>
+        <p>
+         Easily exchange between your assets without giving control of your
+         funds to anyone.
+        </p>
+       </div>
+      </div>
+      <div class="section__3__card">
+       <div class="section__3__card__img">
+        <div>
+         <img src="./assets/images/scalable.svg" alt="" />
+        </div>
+       </div>
+       <div class="section__3__card__content">
+        <h4>Scalable</h4>
+        <p>
+         Instant operations with seamless user experience and low transactions
+         fees.
+        </p>
+       </div>
+      </div>
+      <div class="section__3__card">
+       <div class="section__3__card__img">
+        <div>
+         <img src="./assets/images/versalite.svg" alt="" />
+        </div>
+       </div>
+       <div class="section__3__card__content">
+        <h4>Versatile</h4>
+        <p>
+         One stop solution to save time & money. Switch and Swap between various
+         chains in one place.
+        </p>
+       </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- section 4 -->
+    <section class="section__4" id="products">
+     <div class="section__4__container">
+      <h6 class="my-3">WHAT WE OFFER</h6>
+      <h2>Our Products</h2>
+      <div class="section__4__flex">
+       <div class="section__4__top">
+        <h3 class="mt-5 mb-3 smart">
+         Smart Swapping, Yield Farming and Cross Chaining
+        </h3>
+        <div class="section__4__top__heading">
+         <p>
+          Direct cross chain swapping without order books, deposits or coin
+          wrapping. High Yield Annual Interest for RGP token holders and
+          Liquidity Providers.
+         </p>
+        </div>
+
+        <ul class="section__4__list">
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Take complete control of your funds.</div>
+         </li>
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Low transaction fees.</div>
+         </li>
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Fast, convenient & secure.</div>
+         </li>
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Swap across various chains in one place.</div>
+         </li>
+        </ul>
+       </div>
+       <div
+        class="section__4__middle"
+        data-aos="zoom-out"
+        data-aos-easing="linear"
+        data-aos-delay="500"
+        data-aos-duration="500"
+       >
+        <div class="my-5 section__4__mobile">
+         <img src="./assets/images/img2.svg" alt="" />
+        </div>
+        <div class="my-5 section__4__desktop">
+         <img src="./assets/images/img_desktop.svg" alt="" />
+        </div>
+       </div>
+      </div>
+      <div
+       class="section__4__button__container section__4__button__container_1"
+      >
+       <button>
+        <a
+         href="https://smartswap.rigelprotocol.com/"
+         target="_blank"
+         style="text-decoration: none"
+         >Live now</a
+        >
+       </button>
+      </div>
+      <div class="section__4__flex__2 pt-5 mt-5">
+       <div class="section__4__bottom">
+        <h3>Margin Trading</h3>
+        <div class="section__4__bottom__heading">
+         <p class="my-4">
+          Boost your trading profits with increased leverage by getting access
+          to greater capital sums to trade with.
+         </p>
+        </div>
+
+        <ul class="section__4__list">
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Get access to trading capital easily.</div>
+         </li>
+         <li class="my-4">
+          <div class="section__4__li__marker">
+           <img src="./assets/images/list_marker.svg" alt="" />
+          </div>
+          <div>Potential to amplify your profits.</div>
+         </li>
+        </ul>
+        <div class="section__4__button__container">
+         <button>coming soon</button>
+        </div>
+       </div>
+       <div class="section__4__tabs">
+        <div class="section__4__tab my-3">
+         <img src="./assets/images/binance.svg" alt="" />
+         <div>Binance Coin</div>
+         <div>BNB</div>
+         <div>x50</div>
+        </div>
+        <div class="section__4__tab my-3">
+         <img src="./assets/images/ethereum.svg" alt="" />
+         <div>Ethereum</div>
+         <div>ETH</div>
+         <div>x10</div>
+        </div>
+        <div class="section__4__tab my-3">
+         <img src="./assets/images/EOS.svg" alt="" />
+
+         <div>EOS</div>
+         <div>EOS</div>
+         <div>x10</div>
+        </div>
+       </div>
+      </div>
+
+      <div class="section__4__button__container_2">
+       <button>coming soon</button>
+      </div>
+     </div>
+    </section>
+
+    <!-- section 5 -->
+    <section class="section__5" id="roadMaps">
+     <h6>ROADMAP</h6>
+     <h2 class="my-4">The Timeline</h2>
+     <ul class="section__5__list">
+      <li>
+       <div class="section__5__li__marker__first animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">23 Nov, 2020</h5>
+        <p class="pText">Binance Smart Chain Reward Series</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">26 Nov, 2020</h5>
+        <p class="pText">Community Airdrops</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Dec, 2020</h5>
+        <p class="pText">Token Contract Release</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Dec, 2020</h5>
+        <p class="pText">Community Contests</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Jan, 2021</h5>
+        <p class="pText">Ecosystem & Features Showcase</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Feb, 2021</h5>
+        <p class="pText">Community Adoption & Partnerships</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Upcoming</h5>
+        <p class="pText">Refined Smart Swapping & Yield Farming</p>
+       </div>
+      </li>
+      <li>
+       <div class="section__5__li__marker animate_one">
+        <img src="./assets/images/marker.svg" alt="" />
+       </div>
+       <div>
+        <h5 class="h5Text">Upcoming</h5>
+        <p class="pText">Gift Dapp</p>
+       </div>
+      </li>
+      <li class="section__5__li__blank">
+       <div class="section__5__li__marker__blank">
+        <img src="./assets/images/blank_circle.svg" alt="" />
+       </div>
+       <div>
+        <h5>Q2, 2021</h5>
+        <p>NFTS Rewarding</p>
+       </div>
+      </li>
+      <li class="section__5__li__blank">
+       <div class="section__5__li__marker__blank">
+        <img src="./assets/images/blank_circle.svg" alt="" />
+       </div>
+       <div>
+        <h5>Q2, 2021</h5>
+        <p>Future Exchange</p>
+       </div>
+      </li>
+      <li class="section__5__li__blank">
+       <div class="section__5__li__marker__blank">
+        <img src="./assets/images/blank_circle.svg" alt="" />
+       </div>
+       <div>
+        <h5>Early Q3, 2021</h5>
+        <p>Cross Chain & Governance System</p>
+       </div>
+      </li>
+      <li class="section__5__li__blank">
+       <div class="section__5__li__marker__blank__last">
+        <img src="./assets/images/blank_circle.svg" alt="" />
+       </div>
+       <div>
+        <h5>Q3, 2021</h5>
+        <p>Decentralized Gaming</p>
+       </div>
+      </li>
+     </ul>
+     <div class="section__5__hor__line"></div>
+    </section>
+
+    <!-- section 6 -->
+    <section class="section__6">
+     <h6 class="my-4">WHO WE WORK WITH</h6>
+     <h2>Our Partners</h2>
+     <div class="section__6__img__container my-5">
+      <div class="section__6__mobile">
+       <a href="https://certik.org/projects/rigelprotocol" target="_blank">
+        <img src="./assets/images/certik_mobile.svg" alt="certik" />
+       </a>
+      </div>
+      <div class="section__6__desktop">
+       <a href="https://certik.org/projects/rigelprotocol" target="_blank">
+        <img src="./assets/images/certik.svg" alt="certik" />
+       </a>
+      </div>
+      <div class="section__6__mobile">
+       <a href="https://twitter.com/Definews_info" target="_blank">
+        <img src="./assets/images/defi_mobile.svg" alt="" />
+       </a>
+      </div>
+      <div class="section__6__desktop">
+       <a href="https://twitter.com/Definews_info" target="_blank">
+        <img src="./assets/images/defi.svg" alt="" />
+       </a>
+      </div>
+     </div>
+    </section>
+
+    <!-- section 7 -->
+    <section class="section__7" id="faqs">
+     <h6>WHAT WOULD WE LIKE TO KNOW?</h6>
+     <h2 class="my-4">Frequently asked questions</h2>
+     <div class="section__7__questions my-5">
+      <div class="section__7__question">
+       <div class="section__7__question__tag arrow">
+        <h5>What is RigelProtocol?</h5>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <div class="section__7__question__answer">
+        <p>
+         The Rigel Protocol is designed to bring new solutions to the Defi
+         space, a Decentralized protocol that aims to give to the community
+         access to several instruments to expand the adoption of Blockchain
+         technologies in daily life. The Rigel Protocol is completely designed,
+         set up, developed, and driven by the Rigel Protocol community. All
+         proposals and decision-making are established and decided within the
+         community.
+        </p>
+       </div>
+      </div>
+      <div class="section__7__question">
+       <div class="section__7__question__tag arrow">
+        <h5>What is GiftDapp?</h5>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <div class="section__7__question__answer">
+        <p>
+         The Rigel Protocol gifting system will allow users to win prizes and
+         send gifts to other users. Other DeFi projects will be able to use this
+         Dapp to reward their communities. Social Media influencers can
+         drastically increase their follower base by sending rewards to their
+         subscribers. ‌
+        </p>
+        <p>
+         Users will have the chance to win different values of RGP tokens and
+         other compatible tokens and purchase "Spins" as gifts to other users.
+        </p>
+        <p>
+         Defi projects can apply to utilize the Gifting Dapp to reward and
+         promote their platforms inside their own userbase and other crypto
+         communities.
+        </p>
+       </div>
+      </div>
+      <div class="section__7__question">
+       <div class="section__7__question__tag arrow">
+        <h5>What is RigelProtocol Smart Swapping?</h5>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <div class="section__7__question__answer">
+        <p>
+         Rigel’s Protocol Smart Swapping is our fundamental exchange which will
+         allow users to trade various tokens like BNB, BUSD, USDT, ETH, TRON,
+         BAND on the Binance Smart Chain, and the Ethereum Chain with many other
+         tokens like USDT, LINK, DAI, CRO, UNI, YFI, OMG, HEX and many, many
+         more.
+        </p>
+       </div>
+      </div>
+      <div class="section__7__question">
+       <div class="section__7__question__tag arrow">
+        <h5>What is RigelProtocol Margin Trading?</h5>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <div class="section__7__question__answer">
+        <p>
+         Margin is the money borrowed from a lender to purchase an investment
+         and is the difference between the total value of an investment and the
+         loan amount. Margin trading refers to the practice of using borrowed
+         funds from a lender to trade an asset, which forms the collateral for
+         the loan from the lender. In Crypto most lenders are centralized
+         exchanges. This can lead to a conflict of interests since price can be
+         easily manipulated by these exchanges to increase their profits when
+         user predictions are wrong.
+        </p>
+        <p>
+         RigelProtocol will introduce margin trading to the decentralized
+         finance space to help users tackle problems related to leverage
+         trading. The margin trading product will be more user-centric enabling
+         a new set of foundations for margin traders:
+        </p>
+       </div>
+      </div>
+      <div class="section__7__question">
+       <div class="section__7__question__tag arrow">
+        <h5>What is RigelProtocol Yield Farming?</h5>
+        <div><i class="downArrow"></i></div>
+       </div>
+       <div class="section__7__question__answer">
+        <p>
+         RigelProtocol Yield Farming provides a decentralized platform to
+         maximize the return rate and rewards for the Liquidity Providers. Our
+         Yield Farming DApp will allow users to farm tokens over the period
+         taken, based on the assets supplied into the platform, with a very
+         attractive APY (Annual Percentage Yield) and inflation rate.
+        </p>
+       </div>
+      </div>
+     </div>
+    </section>
+    <footer>
+     <div class="footer__newsletter">
+      <div>
+       <div class="footer__newsletter__info">
+        <h3>Want product news & updates?</h3>
+        <p class="pt-2">Sign up for our newsletter and stay up to date</p>
+       </div>
+       <div class="footer__input__container">
+        <div class="footer__input my-3">
+         <input
+          type="text"
+          placeholder="Enter email address"
+          class="emailInput"
+         />
+         <button>Notify me</button>
+        </div>
+        <div class="footer__input__info">
+         <p>
+          We care about the protection of your data. Read our
+          <a
+           href="privacy-policy.html"
+           style="text-decoration: underline; color: white"
+           >Privacy Policy</a
+          >
+          .
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="footer__container">
+      <div class="footer__sitemap">
+       <div>
+        <div class="footer__aside__2">
+         <h6>Products</h6>
+         <ul class="footer__ul">
+          <li>
+           <p>
+            <a href="https://smartswap.rigelprotocol.com/" target="_blank">
+             Smart Swapping</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a
+             href="#"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             title="coming soon"
+            >
+             Cross Chain</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a href="https://smartswap.rigelprotocol.com/" target="_blank">
+             Yield Farming</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a
+             href="#"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             title="coming soon"
+            >
+             Margin Trading</a
+            >
+           </p>
+          </li>
+         </ul>
+        </div>
+        <div>
+         <h6>About Rigel Protocol</h6>
+         <ul class="footer__ul">
+          <li>
+           <p><a href="about.html"> About us</a></p>
+          </li>
+
+          <li>
+           <p><a class="inner-page-link" href="#roadMaps"> Road Map</a></p>
+          </li>
+          <li class="footer__faq__2">
+           <p><a class="inner-page-link" href="#faqs">FAQs</a></p>
+          </li>
+          <li class="footer__faq__2">
+           <p>
+            <a href="https://medium.com/rigelprotocol" target="_blank"> Blog</a>
+           </p>
+          </li>
+
+          <li class="footer__faq">
+           <p>
+            <a
+             href="#"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             title="coming soon"
+            >
+             Write for us</a
+            >
+           </p>
+          </li>
+         </ul>
+        </div>
+        <div class="footer__aside">
+         <h6>Products</h6>
+         <ul class="footer__ul">
+          <li>
+           <p>
+            <a href="https://smartswap.rigelprotocol.com/" target="_blank">
+             Smart Swapping</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a
+             href="#"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             title="coming soon"
+            >
+             Cross Chain</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a href="https://smartswap.rigelprotocol.com/" target="_blank">
+             Yield Farming</a
+            >
+           </p>
+          </li>
+          <li>
+           <p>
+            <a
+             href="#"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             title="coming soon"
+            >
+             Margin Trading</a
+            >
+           </p>
+          </li>
+         </ul>
+        </div>
+        <div class="footer__aside"></div>
+        <div class="footer__aside__2">
+         <h6>Supports</h6>
+         <ul class="footer__ul">
+          <li>
+           <p><a class="inner-page-link" href="#faqs">FAQs</a></p>
+          </li>
+          <li>
+           <p>
+            <a href="https://medium.com/rigelprotocol" target="_blank"> Blog</a>
+           </p>
+          </li>
+         </ul>
+        </div>
+        <div class="footer__aside">
+         <ul class="footer__ul">
+          <li>
+           <p>
+            <a href="design-compliance.html"> Design Compliance</a>
+           </p>
+          </li>
+          <li>
+           <p>
+            <a href="privacy-policy.html"> Privacy Policy</a>
+           </p>
+          </li>
+          <li>
+           <p>
+            <a href="terms-and-condition.html"> Terms & Conditions</a>
+           </p>
+          </li>
+         </ul>
+        </div>
+        <div class="footer__aside__2">
+         <h6>Subscribe</h6>
+         <div class="footer__input my-3">
+          <input
+           type="text"
+           placeholder="Enter email address"
+           class="emailInput"
+          />
+          <button><img src="./assets/images/rightArrow.svg" alt="" /></button>
+         </div>
+         <div>
+          <h6 class="mt-4">Rigel Protocol Socials</h6>
+          <div class="footer__aside__contact">
+           <a
+            href="https://www.linkedin.com/company/rigelprotocol"
+            target="_blank"
+            ><img
+             src="./assets/images/linkedin.svg"
+             alt="linkedin"
+             class="ml-0"
+           /></a>
+           <a href="https://www.t.me/rigelprotocol" target="_blank"
+            ><img src="./assets/images/telegram.svg" alt="telegram"
+           /></a>
+           <a href="https://discord.gg/j86NH95GDD" target="_blank"
+            ><img src="./assets/images/discord.svg" alt="discord"
+           /></a>
+
+           <a href="https://twitter.com/rigelprotocol" target="_blank">
+            <img src="./assets/images/twitter.svg" alt="twitter"
+           /></a>
+           <a href="https://medium.com/rigelprotocol" target="_blank"
+            ><img src="./assets/images/medium.svg" alt="medium"
+           /></a>
+           <a href="https://github.com/rigelprotocol" target="_blank">
+            <img src="./assets/images/github.svg" alt="github"
+           /></a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="footer__contact">
+       <a href="https://www.linkedin.com/company/rigelprotocol" target="_blank"
+        ><img src="./assets/images/linkedin.svg" alt="linkedin"
+       /></a>
+       <a href="https://www.t.me/rigelprotocol" target="_blank"
+        ><img src="./assets/images/telegram.svg" alt="telegram"
+       /></a>
+       <a href="https://discord.gg/j86NH95GDD" target="_blank"
+        ><img src="./assets/images/discord.svg" alt="discord"
+       /></a>
+       <a href="https://twitter.com/rigelprotocol" target="_blank">
+        <img src="./assets/images/twitter.svg" alt="twitter"
+       /></a>
+       <a href="https://medium.com/rigelprotocol" target="_blank"
+        ><img src="./assets/images/medium.svg" alt="medium"
+       /></a>
+       <a href="https://github.com/rigelprotocol" target="_blank">
+        <img src="./assets/images/github.svg" alt="github"
+       /></a>
+      </div>
+      <div class="footer__copyright">
+       <div>
+        <p>© 2021 Rigel Protocol</p>
+       </div>
+       <div>
+        <ul class="footer__ul">
+         <li>
+          <a href="design-compliance.html"> Design Compliance</a>
+         </li>
+
+         <li>
+          <a href="privacy-policy.html"> Privacy Policy</a>
+         </li>
+
+         <li>
+          <a href="terms-and-condition.html"> Terms & Conditions</a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </main>
+  </div>
+  <script src="./assets/js/index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+   AOS.init();
+  </script>
+ </body>
 </html>
