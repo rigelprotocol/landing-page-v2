@@ -40,6 +40,16 @@ section7Question.forEach((question) => {
         answer.classList.toggle("answer");
     });
 });
+
+
+let section7QuestionText = document.querySelectorAll(".arrow-text");
+section7QuestionText.forEach((question) => {
+    question.addEventListener("click", function (e) {
+        let answer = e.target.parentElement.parentElement.childNodes[3];
+        answer.classList.toggle("answer");
+    });
+});
+
 // let downArrow = document.querySelectorAll(".downArrow");
 // downArrow.forEach((question) => {
 //     question.addEventListener("click", function (e) {
