@@ -36,7 +36,7 @@ let show = false
 let section7Question = document.querySelectorAll(".arrow");
 section7Question.forEach((question) => {
     question.addEventListener("click", function (e) {
-        let answer = e.target.parentElement.parentElement.childNodes[3];
+        let answer = e.target.parentElement.childNodes[3];
         answer.classList.toggle("answer");
     });
 });
