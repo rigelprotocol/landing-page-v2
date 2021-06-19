@@ -443,6 +443,9 @@ main {
  align-items: center;
  margin-top: 2px;
 }
+.section__4__button__container_1 button{
+    background: transparent;
+}
 .section__4__bottom .section__4__button__container {
  display: none;
 }

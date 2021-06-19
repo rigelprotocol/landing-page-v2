@@ -112,18 +112,3 @@ document.addEventListener("scroll", () => {
         animation()
     }
 })
-
-
-// let markers = document.querySelector(".markers path")
-// console.log(markers)
-// markers.animate(
-//     [
-//         // keyframes
-//         { fill: "yellow" },
-//         { fill: "blue" },
-//     ],
-//     {
-//         // timing options
-//         duration: 2000,
-//     }
-// );
