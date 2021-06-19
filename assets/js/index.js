@@ -40,15 +40,6 @@ section7Question.forEach((question) => {
         answer.classList.toggle("answer");
     });
 });
-// let downArrow = document.querySelectorAll(".downArrow");
-// downArrow.forEach((question) => {
-//     question.addEventListener("click", function (e) {
-//         let answer = e.target.parentElement.parentElement.parentElement.parentElement.childNodes[3];
-//         console.log(answer)
-//         answer.classList.toggle("answer");
-//     });
-// });
-
 function clickHandler(e) {
 
     menu.classList.remove("active");
@@ -102,18 +93,3 @@ document.addEventListener("scroll", () => {
         animation()
     }
 })
-
-
-// let markers = document.querySelector(".markers path")
-// console.log(markers)
-// markers.animate(
-//     [
-//         // keyframes
-//         { fill: "yellow" },
-//         { fill: "blue" },
-//     ],
-//     {
-//         // timing options
-//         duration: 2000,
-//     }
-// );
