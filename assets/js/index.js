@@ -30,6 +30,19 @@ let links = document.querySelectorAll(".inner-page-link")
 for (const link of links) {
     link.addEventListener("click", clickHandler);
 }
+// fixed modal
+let fixModalCancel= document.getElementsByClassName("fixed__modal_cancel")[0]
+let page= document.getElementsByClassName("page")[0]
+let fixModal= document.getElementsByClassName("fixed__modal")[0]
+
+fixModalCancel.addEventListener("click",(e)=>{
+    fixModal.style.display="none"
+    page.classList.toggle("blur")
+})
+setTimeout(()=> {
+    fixModal.style.display="block"
+    page.classList.toggle("blur")
+},3000)
 
 // QUESTIONS
 let show = false

@@ -34,6 +34,7 @@
 body {
  overflow-x: hidden;
  font-family: AirbnbBold, sans-serif !important;
+
 }
 .wrapper {
  width: 95%;
@@ -68,7 +69,7 @@ h5 {
  line-height: 23px;
  color: var(--heading-color);
 }
-.wrapper h4 {
+.wrapper h4,.fixed__modal h4 {
  font-weight: 500;
  font-size: 18px;
  line-height: 23px;
@@ -273,7 +274,87 @@ header {
 main {
  padding-top: 70px;
 }
+/*************** fixed modal *************/
+.fixed__modal{
+    width: 80%;
+    margin:0 auto;
+    height:480px;
+    background: #F0F9FF;
+    position:relative;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    margin-top: 20px;
+    display: none;
+}
+.RGP_desktop{
+    display: none;
+}
+.RGP_mobile{
+    display: block;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+.blur{
+/* Blur and de-color */
+-webkit-filter: blur(5px) grayscale(50%);
 
+/* Recede */
+-webkit-transform: scale(0.9);
+}
+.fixed__modal_bg{
+    display:none;
+}
+.fixed__modal_content{
+    position:absolute;
+    top:-20px;
+    padding:30px 0px;
+}
+.fixed__modal_text{
+    padding:0 40px;
+    margin-top:-200px
+}
+.fixed__modal_text h4{
+    line-height: 35px;
+}
+.fixed__modal_text p{
+    margin-top:10px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color:#52606D;
+    font-family: Airbnb, sans-serif !important;
+}
+.fixed__modal_cancel{
+    position: absolute;
+    right:6px;
+    width:24px;
+    top:30px;
+    height:24px;
+    background-color: #CBD2D9;
+    border-radius: 50%;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.fixed__modal_text button{
+  width:223px;
+  height:48px;
+  background-color: #0967D2;
+  border:0;
+  border-radius: 4px;
+  
+}
+.fixed__modal_text button a{
+    color:white;
+    text-decoration: none;
+}
+.fixed__modal_text button:hover{
+    background-color: #0967d2e3;
+}
 /********************SECTION 1 ******************/
 .wrapper .section__1 {
  margin-top: 50px;
@@ -818,6 +899,23 @@ footer {
 /* media queries */
 
 @media (min-width: 600px) {
+    /* fixed modal */
+    .fixed__modal{
+        background-color: white;
+        width:500px; 
+        height:547px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .fixed__modal_bg{
+        display:block;
+    }
+    .RGP_desktop{
+        display: block;
+    }
+    .RGP_mobile{
+        display: none;
+    }
  /* section */
  .wrapper h2 {
   font-size: 40px;
@@ -826,7 +924,7 @@ footer {
  .wrapper h3 {
   font-size: 32px;
  }
- .wrapper h4 {
+ .wrapper h4,.fixed__modal h4 {
   font-size: 24px;
  }
  .wrapper h5 {
@@ -844,7 +942,7 @@ footer {
  .wrapper .section__1 p {
   font-size: 18px;
  }
- .wrapper p {
+ .wrapper p,.fixed__modal p {
   font-size: 16px;
  }
  .wrapper,
