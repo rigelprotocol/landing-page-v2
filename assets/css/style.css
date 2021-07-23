@@ -316,7 +316,7 @@ main {
     padding:30px 0px;
 }
 .fixed__modal_text{
-    padding:0 40px;
+    padding:0 20px;
     margin-top:-200px
 }
 .fixed__modal_text h4{
@@ -915,6 +915,10 @@ footer {
     }
     .RGP_mobile{
         display: none;
+    }
+    .fixed__modal_text{
+        padding:0 40px;
+        margin-top:-200px
     }
  /* section */
  .wrapper h2 {

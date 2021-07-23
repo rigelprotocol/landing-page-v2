@@ -99,12 +99,15 @@ h4 {
 .wrapper li {
  font-size: var(--list-font-size);
 }
-.wrapper p {
+.wrapper p, span {
  font-size: var(--paragraph-font-heading);
  font-weight: normal;
  color: var(--text-color);
  font-family: Airbnb, sans-serif !important;
  line-height: 24px;
+}
+span{
+    color:var(--secondary-color)
 }
 .wrapper button {
  font-size: var(--button-font-size);
@@ -696,6 +699,16 @@ footer {
   width: 80%;
   margin: 0 auto;
  }
+ .wrapper .section__1__event {
+  margin: 0;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+ }
  .wrapper h1 {
   font-size: 48px;
  }
@@ -746,10 +759,26 @@ footer {
   display: grid;
   grid-template-columns: 70% 30%;
  }
+ .section__4__event__grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+ }
+ .section__4__card__event__container {
+    margin-top: -100px;
+ }
+ 
+ .section__4__event__grid a{
+     text-decoration: underline;
+ }
  .section__4__card__button {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+ }
+ .section__4__event__button {
+  display: flex;
+  justify-content: flex-start;
+  margin-top:-10px
  }
  .section__4__card__button button {
   width: 164px;
