@@ -399,6 +399,16 @@ main {
  line-height: 30px;
  margin-top: 30px;
 }
+.section__4__card__status__wrapper{
+    cursor:pointer
+}
+.section__4__card__wrapper{
+    height:auto;
+    overflow: hidden;
+}
+.show{
+    height:0
+}
 .section__4__card__border {
  margin: 24px 0;
  border: 1px solid #cbd2d9;
@@ -421,6 +431,17 @@ main {
  color: #52606d;
  margin: 0 8px;
 }
+.section__4__card__status{
+    display:flex;
+    justify-content: space-between;
+    padding:0 10px
+}
+i {
+    border: solid var(--text-color) 4px;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+   }
 .section__4__card p {
  color: var(--text-color);
  text-align: justify;
@@ -752,6 +773,10 @@ footer {
   grid-template-columns: repeat(3, 1fr);
  }
  /* section__4 */
+.section__4__ended{
+    margin-top:160px;
+}
+   
  .section__4__desktop {
   display: block;
  }

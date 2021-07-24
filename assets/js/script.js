@@ -50,3 +50,20 @@ function clickHandler(e) {
 
 
 
+// event page
+let section4StatusWrapper = document.querySelectorAll(".section__4__card__status__wrapper")
+let section4StatusTitle = document.querySelectorAll(".section__4__card__status_title")
+section4StatusWrapper.forEach(event =>{
+event.addEventListener("click",function(e){
+let wrapper =e.target.parentElement.parentElement.childNodes[3]
+wrapper.classList.toggle("show")
+})
+})
+
+section4StatusTitle.forEach(event =>{
+event.addEventListener("click",function(e){
+let wrapper =e.target.parentElement.parentElement.parentElement.parentElement.parentElement.childNodes[3]
+console.log(wrapper)
+wrapper.classList.toggle("show")
+})
+})
