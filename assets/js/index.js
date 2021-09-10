@@ -42,7 +42,7 @@ fixModalCancel.addEventListener("click",(e)=>{
 setTimeout(()=> {
     fixModal.style.display="block"
     page.classList.toggle("blur")
-},3000)
+},10000)
 
 // QUESTIONS
 let show = false
