@@ -8,13 +8,12 @@ let multiNavbar = document.querySelector(".multi_navbar")
 let multiNavbarUl = document.querySelector(".multi_navbar_ul")
 
 // DEADLINE
-let deadline = "2021-11-21 10:00";
+let deadline = "2021-10-11 16:00";
 let daysVal = document.querySelector(".daysVal");
 let hoursVal = document.querySelector(".hoursVal");
 let minutesVal = document.querySelector(".minutesVal");
 let secondsVal = document.querySelector(".secondsVal");
 let deadlineDate = new Date(deadline);
-
 // define eventlisteners
 let navbar = false
 menuToggle.addEventListener("click", function () {
@@ -160,3 +159,4 @@ document.addEventListener("scroll", () => {
         animation()
     }
 })
+console.log(window)
