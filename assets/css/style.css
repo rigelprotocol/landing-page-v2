@@ -197,9 +197,6 @@ header {
 .header nav ul li:hover a {
  color: var(--secondary-color);
 }
-.navbar__button {
- display: none;
-}
 .multi_navbar .multi_navbar_ul {
  position: static;
  display: none;
@@ -395,7 +392,27 @@ main {
  color: white;
  text-decoration: none;
 }
-
+.deadline__heading p{
+    color:#666666;
+    font-size: 16px;
+    margin-top:35px;
+    margin-bottom: 10px;
+}
+.time div:first-child,.deadline span{
+    font-size:32px;
+    color:#333333
+}
+.time div:last-child{
+    font-size:16px;
+    color:#666666
+}
+.deadline-container{
+    margin-bottom: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /********************SECTION 2 ******************/
 .section__2 {
  background: var(--tertiary-color);
@@ -526,22 +543,21 @@ main {
 }
 .section__4__button__container_1 button{
     background: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    transition: 0.3s;
 }
 .section__4__bottom .section__4__button__container {
  display: none;
 }
 .section__4__button__container button,
-.section__4__button__container_2 button {
+.section__4__button__container_2 button,
+.section__4__button__container_3 button {
  width: 142px;
  height: 48px;
  border-radius: var(--border-radius);
  border: 1px solid var(--text-color);
  color: var(--text-color);
-}
-.section__4__button__container_1 button {
- border: 1px solid var(--secondary-color);
- color: var(--secondary-color);
- transition: 0.3s;
 }
 .section__4__button__container_1 button:hover {
  background: var(--secondary-color);
@@ -672,9 +688,6 @@ main {
  top: 55px;
  z-index: -1;
  border: 1px solid #cbd2d9;
-}
-.startAnimateOne::before {
- animation: roadMap ease-in 1.2s forwards;
 }
 .startAnimateOne::before {
  animation: roadMap ease-in 1.2s forwards;
@@ -956,9 +969,6 @@ footer {
   width: 80%;
  }
  /* header */
- .navbar__button {
-  display: block;
- }
  .headerTop {
   padding: 0px 0px;
  }
@@ -1088,6 +1098,27 @@ footer {
   line-height: 62px;
   text-align: left;
  }
+ .deadline__heading p{
+    color:#666666;
+    font-size: 16px;
+    margin-top:35px;
+    margin-bottom: 10px;
+}
+.time div:first-child,.deadline span{
+    font-size:56px;
+    color:#333333
+}
+.time div:last-child{
+    font-size:16px;
+    color:#666666
+}
+.deadline-container{
+    margin-bottom: 80px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
  /* section__2 */
  .section__2__img__container {
   width: 80%;
@@ -1114,7 +1145,7 @@ footer {
  /* section 4 */
  .section__4 {
   padding: 60px 15px;
-  padding-bottom: 35px;
+  padding-bottom: 95px;
  }
  .section__4__container {
   width: 80%;
@@ -1187,6 +1218,10 @@ footer {
  .section__4__button__container_2 {
   display: none;
  }
+ .section__4__button__container_3 {
+  margin-top: -190px;
+ }
+ 
  .section__4__bottom {
   margin-top: 10px;
  }
@@ -1200,11 +1235,37 @@ footer {
   padding: 65px 15px;
   padding-bottom: 5px;
  }
+ 
+.section__5__container{
+    overflow-x: scroll;
+  height:500px;
+  padding: 0 100px; 
+  padding-right: 0;
+}
  .section__5 ul {
-  display: flex;
+  display: inline-flex;
   justify-content: space-evenly;
  }
+ .section__5__container::-webkit-scrollbar {
+    width: 4px;
+    height:4px
+  }  
+  .section__5__container::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+  .section__5__container::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+    cursor:pointer;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .section__5__container::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color); 
+  }
  .section__5 ul li {
+    width: 150px;
   display: block;
  }
  .section__5 ul li div p {
@@ -1248,10 +1309,12 @@ footer {
  .section__5__hor__line {
   min-width: 100%;
   height: 2px;
-  border: 1px dashed #cbd2d9;
-  margin-top: -60px;
+  background:#cbd2d9;
+  border: none;
+  margin-top: -257px;
   margin-bottom: 300px;
  }
+
  .section__5__list {
   margin-top: 190px;
  }
