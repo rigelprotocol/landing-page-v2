@@ -526,10 +526,13 @@ main {
  margin: 0 auto;
 }
 .section__4__list li {
- display: flex;
+ display: grid;
+ grid-template-columns: 4% 95% ;
+ grid-gap:20px
 }
 .section__4__list li div:last-child {
  margin-left: 13px;
+ text-align: left;
 }
 .section__4__li__marker {
  width: 20px;
@@ -613,21 +616,18 @@ main {
  margin-left: 30px;
 }
 
-.section__5 ul li div p {
- color: var(--text-color);
-}
 .section__5__list li .h5Text {
- color: rgba(203, 210, 217, 1);
+ color: var(--secondary-color);
  font-size: 16px;
  font-weight: bold;
+}
+.section__5__li div .pText{
+    color:var(--text-color)
 }
 .section__5__li__blank div h5 {
  color: rgba(203, 210, 217, 1);
 }
 .section__5__li__blank div p {
- color: #cbd2d9 !important;
-}
-.section__5__list li .pText {
  color: #cbd2d9;
 }
 .section__5__li__marker,
@@ -1218,9 +1218,7 @@ footer {
  .section__4__button__container_2 {
   display: none;
  }
- .section__4__button__container_3 {
-  margin-top: -190px;
- }
+ .section__4__button__container_3{margin-top:-70px;display:flex;justify-content:flex-end;}
  
  .section__4__bottom {
   margin-top: 10px;
@@ -1262,7 +1260,7 @@ footer {
   
   /* Handle on hover */
   .section__5__container::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color); 
+    background: #004391; 
   }
  .section__5 ul li {
     width: 150px;
